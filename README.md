@@ -2,7 +2,7 @@
 
 Portfólio pessoal desenvolvido para apresentar minha trajetória acadêmica e profissional, experiências, formação, cursos, habilidades e projetos desenvolvidos na área de tecnologia.
 
-O projeto também tem como objetivo aplicar conceitos de desenvolvimento web, componentização, organização de código e criação de interfaces responsivas.
+O projeto tem como objetivo aplicar conceitos de desenvolvimento web, componentização, organização de código e criação de interfaces responsivas.
 
 🚀 Tecnologias utilizadas
 HTML5 — Estruturação das páginas.
@@ -13,30 +13,6 @@ JavaScript — Interatividade e funcionalidades.
 Node.js — Ambiente de execução JavaScript.
 Express — Gerenciamento de rotas e servidor.
 EJS — Templates e componentes reutilizáveis.
-📂 Estrutura do projeto
-text
-meu-portfolio/
-│
-├── src/
-│   ├── views/
-│   │   ├── layouts/
-│   │   ├── pages/
-│   │   └── components/
-│   │
-│   ├── public/
-│   │   ├── assets/
-│   │   ├── css/
-│   │   └── js/
-│   │
-│   ├── routes/
-│   ├── controllers/
-│   └── utils/
-│
-├── app.js
-├── package.json
-├── package-lock.json
-├── .gitignore
-└── README.md
 
 📄 Páginas
 
@@ -59,7 +35,7 @@ git clone URL_DO_REPOSITORIO
 
 2. Acesse a pasta do projeto
 bash
-cd meu-portfolio
+cd Portfolio
 
 3. Instale as dependências
 bash
@@ -70,12 +46,12 @@ bash
 npm start
 
 
-Acesse no navegador o endereço:
+Acesse no navegador:
 
 text
 http://localhost:3000
 
-Caso o script start ainda não esteja configurado no package.json, adicione-o apontando para o arquivo app.js.
+Certifique-se de que o script start esteja configurado no package.json, apontando para o arquivo app.js.
 🎯 Objetivos do projeto
 Desenvolver um portfólio pessoal e profissional.
 Aplicar conceitos de HTML, CSS e Bootstrap.
@@ -89,11 +65,6 @@ Desenvolver uma interface responsiva e intuitiva.
 
 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome].
+Carlos Eduardo
 
-GitHub: Seu perfil
-LinkedIn: Seu perfil
-
-<p align="center">
-Desenvolvido com dedicação e aprendizado contínuo.
-</p>
+GitHub: cadu-ribeir
