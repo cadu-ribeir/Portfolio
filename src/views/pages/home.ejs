@@ -1,0 +1,158 @@
+
+<section class="hero-section">
+
+    <div class="container">
+
+        <div class="row align-items-center min-vh-100 py-5">
+
+            <!-- Apresentação -->
+            <div class="col-lg-7">
+
+                <span class="hero-badge">
+                    <i class="bi bi-code-slash"></i>
+                    Bem-vindo ao meu portfólio
+                </span>
+
+                <p class="hero-greeting mt-4">
+                    Olá, eu sou
+                </p>
+
+                <h1 class="hero-title">
+                    <%= profile.name %>
+                </h1>
+
+                <h2 class="hero-role">
+                    <%= profile.role %>
+                </h2>
+
+                <p class="hero-description">
+                    <%= profile.description %>
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="/projetos" class="btn btn-primary-custom">
+                        <i class="bi bi-folder2-open me-2"></i>
+                        Ver projetos
+                    </a>
+
+                    <a href="/experiencias" class="btn btn-outline-custom">
+                        Conhecer minha trajetória
+                    </a>
+
+                </div>
+
+                <div class="hero-socials mt-5">
+
+                    <a href="<%= profile.github %>"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                        GitHub
+                    </a>
+
+                    <a href="<%= profile.linkedin %>"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="bi bi-linkedin"></i>
+                        LinkedIn
+                    </a>
+
+                    <span>
+                        <i class="bi bi-geo-alt"></i>
+                        <%= profile.location %>
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!-- Foto de perfil -->
+            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+
+                <div class="profile-wrapper">
+
+                    <div class="profile-decoration"></div>
+
+                    <img
+                        src="/assets/images/profile/profile.jpg"
+                        alt="Foto de perfil de <%= profile.name %>"
+                        class="profile-image"
+                    >
+
+                    <div class="profile-code">
+                        <i class="bi bi-terminal"></i>
+                        Desenvolvendo ideias
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Sobre mim -->
+<section class="about-section py-5">
+
+    <div class="container">
+
+        <div class="section-heading text-center mb-5">
+
+            <span class="section-label">CONHEÇA MINHA HISTÓRIA</span>
+
+            <h2>Sobre mim</h2>
+
+            <p>
+                Um pouco sobre minha trajetória, meus interesses
+                e minha relação com a tecnologia.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="info-card">
+                    <i class="bi bi-mortarboard"></i>
+                    <h3>Formação</h3>
+                    <p>
+                        Conheça minha trajetória acadêmica e
+                        minha formação na área de tecnologia.
+                    </p>
+                    <a href="/escolaridade">Saiba mais →</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info-card">
+                    <i class="bi bi-lightbulb"></i>
+                    <h3>Habilidades</h3>
+                    <p>
+                        Explore minhas competências técnicas,
+                        ferramentas e conhecimentos.
+                    </p>
+                    <a href="/habilidades">Saiba mais →</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info-card">
+                    <i class="bi bi-code-square"></i>
+                    <h3>Projetos</h3>
+                    <p>
+                        Veja aplicações e soluções que desenvolvi
+                        durante minha jornada.
+                    </p>
+                    <a href="/projetos">Saiba mais →</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
